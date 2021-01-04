@@ -262,9 +262,9 @@ input:focus{
 } 
 
 @media screen and (max-width: 600px) {
-  /* #popup_login.active{
+  #popup_login.active{
     width: 75%;
-  } */
+  }
   .en{
     font-size: 20px;
 
@@ -275,32 +275,38 @@ input:focus{
       /* margin-left: 35px; */
     }
     .img{
-      left: 0;
+      /* left: 0; */
       top: 113.5px;
       /* margin-left: 33px; */
     }
     .img2{
-      left: 0;
+      /* left: 0; */
       top: 181.5px;
       /* margin-left: 33px; */
     }
     .img3{
       top: 249.9px;
-      left: 0;
-      /* margin-left: 33px; */
+      /* left: 0; */
+      
     }
     .head2{
       top: 75px;
-      left: 0;
+      /* left: 0; */
       /* margin-left: 33px; */
     }
     .head3{
       top: 145px;
-      left: 0;
+      /* left: 0; */
       /* margin-left: 33px; */
     }
     .input .name{
       margin-bottom: 40px;
+    }
+    .button{
+      display: inline-block;
+      position: relative;
+      top: 210px;
+     
     }
    
 }
