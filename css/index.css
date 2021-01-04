@@ -276,16 +276,18 @@ input:focus{
     }
     .img{
       /* left: 0; */
-      top: 113.5px;
+      /* top: 113.5px; */
       /* margin-left: 33px; */
     }
     .img2{
+      margin-top: 15.5px;
       /* left: 0; */
-      top: 181.5px;
+      /* top: 181.5px; */
       /* margin-left: 33px; */
     }
     .img3{
-      top: 249.9px;
+      margin-top: 30px;
+      /* top: 249.9px; */
       /* left: 0; */
       
     }
@@ -305,8 +307,14 @@ input:focus{
     .button{
       display: inline-block;
       position: relative;
-      top: 210px;
-     
+      /* top: 210px; */
+    }
+
+    #but{
+      margin-top: -10px;
+    }
+    #but1{
+      margin-top: -10px;
     }
    
 }
