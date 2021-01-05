@@ -295,18 +295,21 @@ input:focus{
     }
     .img{
       margin-top: -2px;
+      height: 17px;
       /* left: 0; */
       /* top: 113.5px; */
       /* margin-left: 33px; */
     }
     .img2{
       margin-top: 13px;
+      height: 17px;
       /* left: 0; */
       /* top: 181.5px; */
       /* margin-left: 33px; */
     }
     .img3{
-      margin-top: 29px;
+      margin-top: 28px;
+      height: 17px;
       /* top: 249.9px; */
       /* left: 0; */
       
