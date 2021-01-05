@@ -415,7 +415,7 @@ nav .blink span{
       margin-right: 40px;
   }
   nav a{
-      font-size: 17px;
+      font-size: 20px;
   }
   nav #icon{
       display: block;
@@ -441,6 +441,7 @@ nav .blink span{
   a.active,a:hover{
       border: none;
       color: white;
+      font-size: 15px;
   }
   nav ul.show{
     left: 0;
