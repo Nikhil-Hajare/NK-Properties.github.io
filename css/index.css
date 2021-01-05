@@ -293,6 +293,24 @@ input:focus{
       /* left: 0; */
       /* margin-left: 33px; */
     }
+    .img{
+      margin-top: 0;
+      /* left: 0; */
+      /* top: 113.5px; */
+      margin-left: 33px;
+    }
+    .img2{
+      margin-top: 15px;
+      /* left: 0; */
+      /* top: 181.5px; */
+      margin-left: 33px;
+    }
+    .img3{
+      margin-top: 28px;
+      /* top: 249.9px; */
+      /* left: 0; */
+      
+    }
     .input .name{
       margin-bottom: 40px;
     }
