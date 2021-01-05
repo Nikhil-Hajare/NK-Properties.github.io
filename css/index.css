@@ -156,7 +156,7 @@ input:focus{
 .form{
   position: absolute;
   top: 72px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-left: none;
   border-right: none;
   height: 33vh;
@@ -235,8 +235,9 @@ input:focus{
 .button{
   display: inline-block;
   position: relative;
-  top: 225px;
+  /* top: 225px; */
   margin: 4px;
+  margin-top:225px ;
   padding: 4px;
   width: 100%;
 }
@@ -246,6 +247,7 @@ input:focus{
   font-size: 13px;
   padding: 6px;
   margin: 10px;
+  /* margin-right:10px; */
   font-weight: bold;
   border-radius: 5px;
   background: white;
@@ -263,6 +265,12 @@ input:focus{
 
 @media screen and (max-width: 600px) {
   #popup_login.active{
+    width: 75%;
+  }
+  #popup_login1.active{
+    width: 75%;
+  }
+  #popup_login2.active{
     width: 75%;
   }
   .en{
