@@ -373,11 +373,11 @@ nav a{
     font-family: 'Rubik', sans-serif;  
 }
 a.active {
-    background-color: #0892d0;
+    background-image: linear-gradient(#14557B , #7FCEC5);
     color: white;
   }
 nav ul li a:hover{
-    background-color: #0892d0;
+    background-image: linear-gradient(#14557B , #7FCEC5);
     color: black;
 }
 nav #icon{
@@ -496,7 +496,8 @@ nav .blink span{
   }
 } 
 
- /* Mobile fixed footer  */
+
+/* Mobile fixed footer  */
  .mobilefooter{
   position: relative;
    height: 20px;
@@ -543,9 +544,6 @@ nav .blink span{
   }
 
 }
-
-
-
 
 
   /* Banner image  */
@@ -654,9 +652,6 @@ nav .blink span{
 
    /* project offer section  */
 
-
-
-
    .project-highlight{
     position: relative;
     height: 200px;
@@ -719,7 +714,6 @@ nav .blink span{
 
 }
 
- 
 
 
 
