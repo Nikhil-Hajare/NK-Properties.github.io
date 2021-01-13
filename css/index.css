@@ -498,6 +498,7 @@ nav .blink span{
 
  /* Mobile fixed footer  */
  .mobilefooter{
+   position: relative;
    height: 20px;
   width: 100%;
   z-index: 1;
@@ -509,6 +510,32 @@ nav .blink span{
   background: #333;
   padding: 10px 0;
  }
+
+ .mobilefooter .whatsapp{
+  
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 28px;
+  width: 28px;
+ }
+
+ .mobilefooter .contact_mobile{
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+}
+
+.mobilefooter .email_mobile{
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
 
 
   /* Banner image  */
