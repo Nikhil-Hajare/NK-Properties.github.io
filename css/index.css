@@ -603,108 +603,72 @@ nav .blink span{
 
    /* project offer section  */
 
-  .project-highlight{
+
+
+
+   .project-highlight{
     position: relative;
     height: 200px;
     width:  100%;
     justify-content: center;
     margin-top: 80px;
-    /* margin-bottom: 100px; */
-    
   }
-  #book{
-    margin-left: 111px;
-    color:rgb(102, 97, 97);
-    font-weight: bold;
+
+  .project-offer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+    grid-column-gap:230px ;
+    grid-row-gap: 20px;
+    width: 80%;
+    margin: auto;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    /* border: 2px solid black; */
   }
-  #pay{
-    position: absolute;
-    margin-left: 111px;
-    color:rgb(102, 97, 97);
-    font-weight: bold;
-  
+
+  .box1{
+    grid-area: box1;
   }
-  #booking{
-    position: absolute;
-    right: 170px;
-    top: 80px;
-    color:rgb(102, 97, 97);
-    font-weight: bold;
+  .box2{
+    grid-area: box2;
   }
-  #booking1{
-    position: absolute;
-    right: 134px;
-    top: 135px;
-    color:rgb(102, 97, 97);
-    font-weight: bold;
+  .box3{
+    grid-area: box3;
   }
-  
-  @media (max-width: 480px){
-    .project-highlight{
-     display:inline-block;
-       margin-top: 170px;
-     }
-   
-     #book{
-     display:inline-block;
-       position: absolute;
-       top: 40px;
-       margin-left: 0px;
-       
-     }
-     #pay{
-     display:inline-block;
-       position: absolute;
-       top: 75px;
-       margin-left: 0px;
-     }
-   
-     #booking{ 
-   display:inline-block;
-      top: 110px;
-    right:0;
-      margin-left:0px;
+  .box4{
+    grid-area: box4;
+  }
+
+  @media screen and (max-width:820px){
+    .project-offer-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "box1"
+    "box2"
+    "box3"  
+    "box4";  
     width:100%;
-     }
-     #booking1{
-       display:inline-block;
-      top: 160px;
-    right:0;
-      margin-left:0px;
-    width:100%;
-     }
-   
-   }
-  
-  @media (min-width: 480px) and (max-width:850px) {
-  
-    .project-highlight{
-      margin-top: 80px;
+    text-align: center;
     }
-  
-    #book{
-      position: absolute;
-      top: 60px;
-      margin-left: 28px;
-      
-    }
-    #pay{
-      position: absolute;
-      top: 89px;
-      margin-left: 28px;
-    }
-  
-    #booking{ 
-      top: 120px;
-     right: 0px;
-      width: 96%;
-    }
-    #booking1{
-      top: 155px;
-      right: 0px;
-      width:96%;
-    }
+
+}
+
+@media screen and (max-width:480px){
+
+  .project-highlight{
+    margin-top: 150px;
+    height: 280px;
   }
+
+}
+
+ 
 
 
 
