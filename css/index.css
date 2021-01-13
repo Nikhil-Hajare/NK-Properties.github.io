@@ -498,13 +498,13 @@ nav .blink span{
 
  /* Mobile fixed footer  */
  .mobilefooter{
-   position: relative;
+  position: relative;
    height: 20px;
   width: 100%;
   z-index: 1;
   position: fixed;
   left: 0;
-  /* display: none; */
+  display: none;
   right: 0;
   bottom: 0;
   background: #333;
@@ -515,7 +515,7 @@ nav .blink span{
   
   position: absolute;
   top: 5px;
-  left: 10px;
+  left: 80px;
   height: 28px;
   width: 28px;
  }
@@ -533,8 +533,18 @@ nav .blink span{
   width: 28px;
   position: absolute;
   top: 5px;
-  right: 10px;
+  right: 80px;
 }
+
+@media screen and (max-width:999px){
+
+  .mobilefooter{
+    display: block;
+  }
+
+}
+
+
 
 
 
