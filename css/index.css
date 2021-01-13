@@ -392,11 +392,11 @@ nav #icon{
 nav i {
     margin-right: 8px;
     margin-left: 5px;
-    animation: blink   1s infinite normal;
+    animation: blink   3s infinite normal;
     color: white !important; 
   }
 nav .blink span{
-    animation: blink 1s linear infinite;
+    animation: blink 3s linear infinite;
     color: #fff;
 }
 @keyframes blink{
@@ -618,6 +618,7 @@ nav .blink span{
     font-weight: bold;
   }
   #pay{
+    position: absolute;
     margin-left: 111px;
     color:rgb(102, 97, 97);
     font-weight: bold;
@@ -632,7 +633,7 @@ nav .blink span{
   }
   #booking1{
     position: absolute;
-    right: 212px;
+    right: 134px;
     top: 135px;
     color:rgb(102, 97, 97);
     font-weight: bold;
@@ -640,7 +641,7 @@ nav .blink span{
   
   @media (max-width: 480px){
     .project-highlight{
-      margin-top: 111px;
+      margin-top: 141px;
     }
   
     #book{
@@ -652,6 +653,7 @@ nav .blink span{
     }
     #pay{
       margin-left: 0px;
+      top: 130px;
     } 
   
     #booking{ 
@@ -659,8 +661,11 @@ nav .blink span{
       right: 0px;
       width: 100%;
     }
+
+    #booking span{
+    }
     #booking1{
-      top: 155px;
+      top: 165px;
       right: 0px;
       width:100%
     }
