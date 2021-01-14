@@ -808,7 +808,7 @@ nav .blink span{
     overflow: hidden;
     position: relative;
     /* background: #0892d0; */
-    background-image: linear-gradient(#09203f  , #537895);
+    background-image: linear-gradient(#29323c     , #485563);
     color: rgb(255, 255, 255);
     padding: 5px 10px;
     text-transform: uppercase;
