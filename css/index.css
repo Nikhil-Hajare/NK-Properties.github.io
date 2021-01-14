@@ -425,18 +425,18 @@ nav .blink span{
       width: 100%;
       height: 100vh;
       background: #2f3640;
-      top: 60px;
+      top: 30px;
       left: -100%;
       text-align: center;
       transition: all .2s;
   }
   nav li{
       display: block;
-      margin: 50px 0;
+      margin: 20px 0;
       line-height: 30px;
   }
   nav a{
-      font-size: 15px;
+      font-size: 1em;
   }
   a.active,a:hover{
       border: none;
@@ -474,18 +474,18 @@ nav .blink span{
       width: 100%;
       height: 100vh;
       background: #2f3640;
-      top: 60px;
+      top: 0px;
       left: -100%;
       text-align: center;
       transition: all .2s;
   }
   nav li{
       display: block;
-      margin: 50px 0;
+      margin: 40px 0;
       line-height: 30px;
   }
   nav a{
-      font-size: 20px;
+      font-size: 1em;
   }
   a.active,a:hover{
       border: none;
@@ -808,7 +808,7 @@ nav .blink span{
     overflow: hidden;
     position: relative;
     /* background: #0892d0; */
-    background-color:rgb(4, 51, 68);
+    background-image: linear-gradient(#09203f  , #537895);
     color: rgb(255, 255, 255);
     padding: 5px 10px;
     text-transform: uppercase;
