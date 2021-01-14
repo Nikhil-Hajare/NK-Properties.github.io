@@ -526,12 +526,12 @@ nav .blink span{
   width: 28px;
   position: absolute;
   top: 5px;
-  left: 50%;
+  left: 45%;
 }
 
 .mobilefooter .email_mobile{
-  height: 28px;
-  width: 28px;
+  height:30px;
+  width: 30px;
   position: absolute;
   top: 5px;
   right: 80px;
