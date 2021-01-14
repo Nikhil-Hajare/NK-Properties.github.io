@@ -342,7 +342,7 @@ nav{
     position: fixed;
     z-index: 1;
     width: 100%;
-    background: #333;
+    background: rgb(27, 25, 25);
     /* overflow: hidden; */
 }
 label.logo{
@@ -808,8 +808,8 @@ nav .blink span{
     overflow: hidden;
     position: relative;
     /* background: #0892d0; */
-    background-image:linear-gradient(#0D324D , #7F5A83);
-    color: #fff;
+    background-color:rgb(4, 51, 68);
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
     text-transform: uppercase;
     border-radius: 15px;
@@ -926,7 +926,7 @@ nav .blink span{
   
   .project-price1 p{
     font-weight: 300;
-    background-image:linear-gradient(#0D324D , #7F5A83);
+    background-image: linear-gradient(#14557B , #7FCEC5);
     padding: 12px 10px;
     font-size: 12px;
     border-radius: 3px;
@@ -954,7 +954,7 @@ nav .blink span{
   }
   
   .project-price2 p{
-    background-image:linear-gradient(#0D324D , #7F5A83);
+    background-image: linear-gradient(#14557B , #7FCEC5);
     padding: 12px 10px;
     border-radius: 3px;
     color: #fff;
@@ -981,7 +981,7 @@ nav .blink span{
   }
   
   .project-price3 p{
-    background-image:linear-gradient(#0D324D , #7F5A83);
+    background-image: linear-gradient(#14557B , #7FCEC5);
     padding: 12px 0px;
     border-radius: 3px;
     color: #fff;
