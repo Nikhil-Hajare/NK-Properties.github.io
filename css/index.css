@@ -373,11 +373,11 @@ nav a{
     font-family: 'Rubik', sans-serif;  
 }
 a.active {
-    background-image: linear-gradient(#14557B , #7FCEC5);
+  background-image: linear-gradient(#2A2A72 , #009FFD);
     color: white;
   }
 nav ul li a:hover{
-    background-image: linear-gradient(#14557B , #7FCEC5);
+  background-image: linear-gradient(#2A2A72 , #009FFD);
     color: black;
 }
 nav #icon{
@@ -807,8 +807,8 @@ nav .blink span{
   .offers font {
     overflow: hidden;
     position: relative;
-    /* background: #0892d0; */
-    background-image: linear-gradient(#29323c     , #485563);
+    background: #1c56bf;
+    /* background-image: linear-gradient(#29323c     , #485563); */
     color: rgb(255, 255, 255);
     padding: 5px 10px;
     text-transform: uppercase;
@@ -924,7 +924,7 @@ nav .blink span{
   
   .project-price1 p{
     font-weight: 300;
-    background-image: linear-gradient(#09203f  , #537895);
+    background-image: linear-gradient(#2A2A72 , #009FFD);
     padding: 12px 10px;
     font-size: 12px;
     border-radius: 3px;
@@ -952,7 +952,7 @@ nav .blink span{
   }
   
   .project-price2 p{
-    background-image: linear-gradient(#09203f  , #537895);
+    background-image: linear-gradient(#2A2A72 , #009FFD);
     padding: 12px 10px;
     border-radius: 3px;
     color: #fff;
@@ -979,7 +979,7 @@ nav .blink span{
   }
   
   .project-price3 p{
-    background-image: linear-gradient(#09203f  , #537895);
+    background-image: linear-gradient(#2A2A72 , #009FFD);
     padding: 12px 0px;
     border-radius: 3px;
     color: #fff;
